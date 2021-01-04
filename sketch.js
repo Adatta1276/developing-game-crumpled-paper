@@ -45,7 +45,7 @@ function setup() {
 
 
 function draw() {
-	background(BG);
+	background(0);
 	Engine.update(engine);
 	rectMode(CENTER);
 	/* console.log(World.mouseX);
