@@ -18,9 +18,9 @@ function setup() {
 	createCanvas(800, 700);  //midpoint of canvas is 400x,350y
 
 	dustbin = createSprite(635,568.5,4.5,110);
-	dustbin.addImage(DI);
+	/*dustbin.addImage(DI);*/
 	dustbin.scale = 0.75;
-	dustbin.debug=true;
+	
 
 
 	engine = Engine.create();
